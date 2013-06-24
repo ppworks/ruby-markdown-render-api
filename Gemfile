@@ -3,3 +3,7 @@ source 'https://rubygems.org'
 gem 'sinatra'
 gem 'redcarpet'
 gem 'coderay'
+
+group :development do
+  gem 'sinatra-reloader'
+end
