@@ -30,3 +30,10 @@ Connection: Keep-Alive
 
 <p>content</p>
 ```
+
+For production.
+
+```
+heroku create {app_name_you_want}
+git push heroku master
+```
